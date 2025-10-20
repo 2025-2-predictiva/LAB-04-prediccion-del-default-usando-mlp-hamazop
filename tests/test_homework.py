@@ -18,37 +18,37 @@ MODEL_COMPONENTS = [
     "MLPClassifier",
 ]
 SCORES = [
-    0.661,
-    0.666,
+    0.1,
+    0.1,
 ]
 METRICS = [
     {
         "type": "metrics",
         "dataset": "train",
-        "precision": 0.691,
-        "balanced_accuracy": 0.661,
-        "recall": 0.370,
-        "f1_score": 0.482,
+        "precision": 0.1,
+        "balanced_accuracy": 0.1,
+        "recall": 0.1,
+        "f1_score": 0.1,
     },
     {
         "type": "metrics",
         "dataset": "test",
-        "precision": 0.673,
-        "balanced_accuracy": 0.661,
-        "recall": 0.370,
-        "f1_score": 0.482,
+        "precision": 0.1,
+        "balanced_accuracy": 0.1,
+        "recall": 0.1,
+        "f1_score": 0.1,
     },
     {
         "type": "cm_matrix",
         "dataset": "train",
-        "true_0": {"predicted_0": 15440, "predicted_1": None},
-        "true_1": {"predicted_0": None, "predicted_1": 1735},
+        "true_0": {"predicted_0": 1, "predicted_1": None},
+        "true_1": {"predicted_0": None, "predicted_1": 1},
     },
     {
         "type": "cm_matrix",
         "dataset": "test",
-        "true_0": {"predicted_0": 6710, "predicted_1": None},
-        "true_1": {"predicted_0": None, "predicted_1": 730},
+        "true_0": {"predicted_0": 1, "predicted_1": None},
+        "true_1": {"predicted_0": None, "predicted_1": 1},
     },
 ]
 
